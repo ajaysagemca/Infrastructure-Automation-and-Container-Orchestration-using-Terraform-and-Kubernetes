@@ -1,11 +1,4 @@
 
-## 3. `Jenkinsfile`
-
-Location: `infrastructure-automation-kubernetes/Jenkinsfile`
-
-Ye pipeline Python tests run karegi, Docker image build aur push karegi, phir SSH ke through EC2 ke Kubernetes cluster par deploy karegi.
-
-```groovy
 pipeline {
     agent any
 
