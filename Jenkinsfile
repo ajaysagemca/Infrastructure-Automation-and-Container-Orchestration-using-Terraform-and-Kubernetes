@@ -11,7 +11,7 @@ pipeline {
         DOCKER_IMAGE_NAME = 'infrastructure-automation-kubernetes'
 
         // Replace with your Terraform EC2 public IP
-        K8S_HOST = '3.94.249.69'
+        K8S_HOST = '172.31.41.245'
 
         // Replace with your Docker Hub username
         DOCKERHUB_USER = 'ajaysahu176'
