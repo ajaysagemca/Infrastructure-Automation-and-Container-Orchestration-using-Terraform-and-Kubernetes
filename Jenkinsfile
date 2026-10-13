@@ -18,10 +18,10 @@ pipeline {
         DOCKER_IMAGE_NAME = 'infrastructure-automation-kubernetes'
 
         // Replace with your Terraform EC2 public IP
-        K8S_HOST = 'REPLACE_WITH_EC2_PUBLIC_IP'
+        K8S_HOST = '3.94.249.69'
 
         // Replace with your Docker Hub username
-        DOCKERHUB_USER = 'REPLACE_WITH_DOCKERHUB_USERNAME'
+        DOCKERHUB_USER = 'ajaysahu176'
 
         // Jenkins credential containing the matching EC2 private key
         SSH_CREDENTIAL_ID = 'k8s-ec2-key'
